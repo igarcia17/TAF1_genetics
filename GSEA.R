@@ -20,7 +20,7 @@ subcategory <- 'REACTOME'
 #Will you use stat parameter for ordering or the shrinked log2fold change?
 #Log2fold is traditional statistic, but lately t statistic has been more recommended
 #https://www.biorxiv.org/content/10.1101/060012v3.full.pdf
-statP <- T
+statP <- F
 #Plot the x top categories
 topCat <- 15
 
@@ -28,16 +28,13 @@ topCat <- 15
 workingD <- rstudioapi::getActiveDocumentContext()$path
 setwd(dirname(workingD))
 #Input
-input <- 'results_DGE/deseq_objects.RData'
+experiment <- 'Salmon_Ribominus'
+input <- paste0('DeSeq_results/',experiment, '.txt')
 
 #Outputs
-resD0 <- 'results_GSEA/'
-if (statP){
-  resD1 <- paste0(resD0,'stat/')
-} else {
-  resD1 <- paste0(resD0, 'log2fold/')
-}
-resD <- gsub(':','_',paste0(resD1,category,'_', subcategory, '/'))
+resD0 <- paste0('GSEA_results/', experiment, '/')
+
+resD <- gsub(':','_',paste0(resD0,category,'_', subcategory, '/'))
 if (!file.exists(resD)){
   dir.create(file.path(resD))
 }
@@ -49,21 +46,19 @@ ridgeF <- paste0(resD,"GSEA_ridge.jpeg")
 upsetF <- paste0(resD,"upset_plot.jpeg")
 gseaplotsF <- paste0(resD,'all_gseaplots.jpeg')
 
+library(data.table)
 #1) Load data
-load(input)
+data <- fread(input)
+#I am going to work over the stat parameter. 
+#To calculate this i divide the log2FoldChange by the lfcSE.
+#The other option, using log2FoldChange, would require shrinkage
+#As the data is not a DESEqDataSet object, I cannot do the shrinkage
 
-if(statP){
-  res <- results(dds, contrast = c('condition', 'Affected', 'Unaffected'))
-  res <- res[complete.cases(res),]
-  dat <- res$stat
-  names(dat) <- as.character(rownames(res))
-  dat <- sort(dat, decreasing=TRUE)
-} else { #when using log2fold change it is necessary to shrink the values
-  shrink <- lfcShrink(dds, coef = 12, type="apeglm", quiet =T)
-  dat <- shrink$log2FoldChange
-  names(dat) <- as.character(rownames(shrink))
-  dat <- sort(dat, decreasing=TRUE)
-}
+dat <- data$stat
+names(dat) <- as.character(data$ENSID)
+# Remove items with name '0'
+dat <- dat[names(dat) != "0"]
+dat <- sort(dat, decreasing=TRUE)
 
 #2) Calculate GSEA and write tables of results
 #Get genes and categories
@@ -74,7 +69,7 @@ head(db_sets) #each gene associated with each msig group
 
 #3) Perform GSEA
 set.seed(1)
-egs <- GSEA(geneList = dat, pvalueCutoff = 0.05, eps = 0, pAdjustMethod = "BH", 
+egs <- GSEA(geneList = dat, pvalueCutoff = 0.05, eps = 0.01, pAdjustMethod = "BH", 
             seed = T, TERM2GENE = db_sets) #for more accurate p value set eps to 0
 #https://bioconductor.org/packages/release/bioc/vignettes/fgsea/inst/doc/fgsea-tutorial.html 
 #head(egs@result)
