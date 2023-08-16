@@ -1,5 +1,5 @@
 # TAF1_genetics
-Genetics analysis related to TAF1 and their interactors related to MS.
+Genetics analysis of TAF1 and their interactors in relation to multiple sclerosis (MS).
 1. GSEA RNAseq data
    From two DeSeq results, a) Ribominus and b) PolyA, both aligned using Salmon.
    Use all databases. I have run it on Mus musculus data base, for human tell me how to handle duplicates on ENSID.
