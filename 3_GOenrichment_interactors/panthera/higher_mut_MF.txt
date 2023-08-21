@@ -1,0 +1,27 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20230705)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.7942786 Released 2023-05-10
+Analyzed List:	upload_1 (Mus musculus)
+Reference List:	Mus musculus (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO molecular function complete	Mus musculus - REFLIST (21997)	upload_1 (52)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+pre-mRNA binding (GO:0036002)	38	4	.09	+	44.53	2.88E-06	1.60E-03
+rRNA binding (GO:0019843)	73	4	.17	+	23.18	3.28E-05	1.49E-02
+unfolded protein binding (GO:0051082)	89	4	.21	+	19.01	6.88E-05	2.45E-02
+translation regulator activity (GO:0045182)	157	5	.37	+	13.47	3.96E-05	1.65E-02
+structural constituent of ribosome (GO:0003735)	162	5	.38	+	13.06	4.58E-05	1.76E-02
+ribonucleoprotein complex binding (GO:0043021)	186	5	.44	+	11.37	8.65E-05	2.88E-02
+mRNA binding (GO:0003729)	335	8	.79	+	10.10	1.31E-06	8.18E-04
+RNA binding (GO:0003723)	1113	22	2.63	+	8.36	2.28E-15	1.14E-11
+protein-containing complex binding (GO:0044877)	2141	18	5.06	+	3.56	1.04E-06	7.44E-04
+nucleic acid binding (GO:0003676)	3371	26	7.97	+	3.26	5.56E-09	1.39E-05
+identical protein binding (GO:0042802)	2410	18	5.70	+	3.16	5.66E-06	2.82E-03
+heterocyclic compound binding (GO:1901363)	5371	31	12.70	+	2.44	7.39E-08	1.23E-04
+organic cyclic compound binding (GO:0097159)	5453	31	12.89	+	2.40	1.07E-07	1.33E-04
+protein binding (GO:0005515)	9462	41	22.37	+	1.83	2.86E-07	2.85E-04
+binding (GO:0005488)	14105	49	33.34	+	1.47	6.32E-07	5.26E-04

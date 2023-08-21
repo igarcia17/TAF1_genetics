@@ -1,0 +1,40 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20230705)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.7942786 Released 2023-05-10
+Analyzed List:	upload_1 (Mus musculus)
+Reference List:	Mus musculus (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO cellular component complete	Mus musculus - REFLIST (21997)	upload_1 (23)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+cornified envelope (GO:0001533)	62	4	.06	+	61.70	6.24E-07	4.12E-04
+proteasome complex (GO:0000502)	65	3	.07	+	44.14	4.77E-05	6.30E-03
+extracellular exosome (GO:0070062)	91	3	.10	+	31.53	1.25E-04	1.13E-02
+actin filament bundle (GO:0032432)	96	3	.10	+	29.89	1.46E-04	1.26E-02
+Z disc (GO:0030018)	131	4	.14	+	29.20	1.09E-05	2.70E-03
+endopeptidase complex (GO:1905369)	100	3	.10	+	28.69	1.64E-04	1.36E-02
+intermediate filament (GO:0005882)	139	4	.15	+	27.52	1.37E-05	2.71E-03
+extracellular vesicle (GO:1903561)	105	3	.11	+	27.33	1.89E-04	1.50E-02
+I band (GO:0031674)	145	4	.15	+	26.38	1.61E-05	2.90E-03
+extracellular organelle (GO:0043230)	114	3	.12	+	25.17	2.40E-04	1.82E-02
+extracellular membrane-bounded organelle (GO:0065010)	114	3	.12	+	25.17	2.40E-04	1.76E-02
+sarcolemma (GO:0042383)	170	4	.18	+	22.50	2.97E-05	4.89E-03
+intermediate filament cytoskeleton (GO:0045111)	176	4	.18	+	21.74	3.39E-05	5.16E-03
+peptidase complex (GO:1905368)	136	3	.14	+	21.10	3.97E-04	2.81E-02
+sarcomere (GO:0030017)	200	4	.21	+	19.13	5.52E-05	6.82E-03
+myelin sheath (GO:0043209)	208	4	.22	+	18.39	6.41E-05	7.46E-03
+myofibril (GO:0030016)	225	4	.24	+	17.00	8.64E-05	8.55E-03
+contractile fiber (GO:0043292)	238	4	.25	+	16.07	1.07E-04	1.01E-02
+actin cytoskeleton (GO:0015629)	506	6	.53	+	11.34	1.11E-05	2.43E-03
+polymeric cytoskeletal fiber (GO:0099513)	708	6	.74	+	8.11	7.16E-05	7.88E-03
+supramolecular fiber (GO:0099512)	946	8	.99	+	8.09	3.31E-06	1.64E-03
+supramolecular polymer (GO:0099081)	953	8	1.00	+	8.03	3.49E-06	1.38E-03
+supramolecular complex (GO:0099080)	1305	9	1.36	+	6.60	3.56E-06	1.17E-03
+cytoskeleton (GO:0005856)	2302	11	2.41	+	4.57	6.82E-06	1.93E-03
+cell junction (GO:0030054)	2245	10	2.35	+	4.26	4.05E-05	5.73E-03
+cytosol (GO:0005829)	3855	16	4.03	+	3.97	5.65E-08	1.12E-04
+cytoplasm (GO:0005737)	11586	23	12.11	+	1.90	4.32E-07	4.27E-04
+intracellular anatomical structure (GO:0005622)	14294	23	14.95	+	1.54	7.74E-05	8.06E-03

@@ -5,8 +5,15 @@ Genetics analysis of TAF1 and their interactors in relation to multiple sclerosi
    Datasets: GO, HPO, Hallmark, KEGG, REACTOME. Used the identifiers on Mus musculus, NOT the equivalents in human, because of duplicates and lack of correspondance. 
    Very interesting and straightforward results for KEGG of polyA.
    In comparison of both PolyA and Ribominus, only selected categories with p value adjusted < 0.01. 55 in common.
-   
-2. Gene-set analysis of MAGMA for in silico validation of GSEA results. Check for MS, esophageal-gastric cancer and ALS.
+
+2. [DONE] Gene-set analysis of MAGMA for in silico validation of GSEA results.
+   Done for both ribominus and polyA, checking MS, esophageal cancer and ALS.
+
 3. GO categories of interactors in column O, sheet DATA of file 'interactores_and_other_data.xlsx' and gene-set analysis of emerged categories.
-4. [DONE] Gene-set analysis of MAGMA for those interactors, 4 sets: only WT, only mut, not differential, all together. Found in column O.
+   GO categories for the groups 'higher in WT', 'higher in mut' and 'not differential'. Discard no interactors.
+   GO enrichment analysisi (powered by PANTHER) at http://geneontology.org/ -> [TODO] como matchear la go cat en list de genes
+   Gene set in multiple sclerosis of the unique categories.
+   
+4. [DONE] Gene-set analysis of MAGMA for those interactors, 4 sets: only WT, only mut, not differential, all together.
+
 5. ORA with oligodendrocytes markers over the genes on the CHIP-seq pause peak.

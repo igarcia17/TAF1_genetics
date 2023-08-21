@@ -1,0 +1,43 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20230705)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.7942786 Released 2023-05-10
+Analyzed List:	upload_1 (Mus musculus)
+Reference List:	Mus musculus (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO cellular component complete	Mus musculus - REFLIST (21997)	upload_1 (52)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+eukaryotic translation initiation factor 3 complex, eIF3m (GO:0071541)	8	2	.02	+	 > 100	2.43E-04	1.78E-02
+B-WICH complex (GO:0110016)	8	2	.02	+	 > 100	2.43E-04	1.71E-02
+cytosolic large ribosomal subunit (GO:0022625)	66	5	.16	+	32.05	6.93E-07	1.52E-04
+polysome (GO:0005844)	73	4	.17	+	23.18	3.28E-05	2.70E-03
+large ribosomal subunit (GO:0015934)	123	6	.29	+	20.64	5.83E-07	1.44E-04
+cytosolic ribosome (GO:0022626)	122	5	.29	+	17.34	1.23E-05	1.21E-03
+myelin sheath (GO:0043209)	208	8	.49	+	16.27	3.87E-08	1.92E-05
+spliceosomal complex (GO:0005681)	208	7	.49	+	14.24	7.01E-07	1.39E-04
+ribosomal subunit (GO:0044391)	197	6	.47	+	12.88	8.09E-06	8.43E-04
+ribosome (GO:0005840)	245	6	.58	+	10.36	2.69E-05	2.42E-03
+ribonucleoprotein complex (GO:1990904)	747	18	1.77	+	10.19	6.15E-14	1.22E-10
+nuclear body (GO:0016604)	757	8	1.79	+	4.47	3.94E-04	2.69E-02
+protein-DNA complex (GO:0032993)	795	8	1.88	+	4.26	5.44E-04	3.59E-02
+postsynapse (GO:0098794)	830	8	1.96	+	4.08	7.19E-04	4.59E-02
+nuclear protein-containing complex (GO:0140513)	1249	12	2.95	+	4.06	2.84E-05	2.44E-03
+synapse (GO:0045202)	1604	14	3.79	+	3.69	1.55E-05	1.46E-03
+cell junction (GO:0030054)	2245	15	5.31	+	2.83	1.56E-04	1.19E-02
+protein-containing complex (GO:0032991)	5859	38	13.85	+	2.74	4.19E-12	4.15E-09
+nucleoplasm (GO:0005654)	3661	23	8.65	+	2.66	2.99E-06	3.70E-04
+cytosol (GO:0005829)	3855	24	9.11	+	2.63	1.85E-06	2.61E-04
+intracellular organelle lumen (GO:0070013)	4574	28	10.81	+	2.59	1.68E-07	6.64E-05
+organelle lumen (GO:0043233)	4575	28	10.82	+	2.59	1.69E-07	5.56E-05
+membrane-enclosed lumen (GO:0031974)	4575	28	10.82	+	2.59	1.69E-07	4.77E-05
+intracellular non-membrane-bounded organelle (GO:0043232)	4615	27	10.91	+	2.47	8.76E-07	1.58E-04
+non-membrane-bounded organelle (GO:0043228)	4616	27	10.91	+	2.47	8.80E-07	1.45E-04
+nuclear lumen (GO:0031981)	4127	24	9.76	+	2.46	6.34E-06	6.97E-04
+nucleus (GO:0005634)	7109	31	16.81	+	1.84	7.25E-05	5.74E-03
+cytoplasm (GO:0005737)	11586	44	27.39	+	1.61	2.03E-06	2.68E-04
+intracellular anatomical structure (GO:0005622)	14294	52	33.79	+	1.54	3.01E-10	1.99E-07
+intracellular organelle (GO:0043229)	12672	46	29.96	+	1.54	1.79E-06	2.73E-04
+organelle (GO:0043226)	12990	46	30.71	+	1.50	6.08E-06	7.07E-04

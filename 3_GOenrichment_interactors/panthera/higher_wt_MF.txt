@@ -1,0 +1,21 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20230705)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.7942786 Released 2023-05-10
+Analyzed List:	upload_1 (Mus musculus)
+Reference List:	Mus musculus (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO molecular function complete	Mus musculus - REFLIST (21997)	upload_1 (23)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+phospholipase A2 inhibitor activity (GO:0019834)	5	2	.01	+	 > 100	2.18E-05	2.18E-02
+phospholipase inhibitor activity (GO:0004859)	8	2	.01	+	 > 100	4.67E-05	3.89E-02
+structural constituent of cytoskeleton (GO:0005200)	73	7	.08	+	91.71	1.49E-12	7.46E-09
+actin filament binding (GO:0051015)	219	4	.23	+	17.47	7.79E-05	4.86E-02
+actin binding (GO:0003779)	448	5	.47	+	10.67	8.93E-05	4.95E-02
+structural molecule activity (GO:0005198)	652	7	.68	+	10.27	3.36E-06	4.19E-03
+cytoskeletal protein binding (GO:0008092)	1021	7	1.07	+	6.56	6.01E-05	4.28E-02
+identical protein binding (GO:0042802)	2410	13	2.52	+	5.16	1.32E-07	3.30E-04
+protein binding (GO:0005515)	9462	21	9.89	+	2.12	1.80E-06	3.00E-03

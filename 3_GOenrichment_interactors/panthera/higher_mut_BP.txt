@@ -1,0 +1,93 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20230705)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.7942786 Released 2023-05-10
+Analyzed List:	upload_1 (Mus musculus)
+Reference List:	Mus musculus (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO biological process complete	Mus musculus - REFLIST (21997)	upload_1 (52)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+negative regulation of mRNA splicing, via spliceosome (GO:0048025)	23	3	.05	+	55.18	3.10E-05	8.99E-03
+negative regulation of mRNA processing (GO:0050686)	24	3	.06	+	52.88	3.48E-05	9.56E-03
+negative regulation of RNA splicing (GO:0033119)	28	3	.07	+	45.32	5.31E-05	1.30E-02
+positive regulation of mRNA splicing, via spliceosome (GO:0048026)	38	4	.09	+	44.53	2.88E-06	1.33E-03
+positive regulation of RNA splicing (GO:0033120)	55	5	.13	+	38.46	2.97E-07	2.73E-04
+positive regulation of mRNA processing (GO:0050685)	48	4	.11	+	35.25	6.85E-06	2.56E-03
+regulation of mRNA splicing, via spliceosome (GO:0048024)	113	9	.27	+	33.69	1.09E-11	8.51E-08
+spliceosomal complex assembly (GO:0000245)	45	3	.11	+	28.20	1.99E-04	4.04E-02
+translation at presynapse (GO:0140236)	47	3	.11	+	27.00	2.24E-04	4.51E-02
+nucleosome assembly (GO:0006334)	63	4	.15	+	26.86	1.89E-05	6.04E-03
+translation at postsynapse (GO:0140242)	48	3	.11	+	26.44	2.38E-04	4.72E-02
+translation at synapse (GO:0140241)	48	3	.11	+	26.44	2.38E-04	4.66E-02
+regulation of mRNA processing (GO:0050684)	144	9	.34	+	26.44	8.39E-11	2.63E-07
+cytoplasmic translation (GO:0002181)	113	7	.27	+	26.20	1.29E-08	2.25E-05
+ribosomal large subunit biogenesis (GO:0042273)	73	4	.17	+	23.18	3.28E-05	9.34E-03
+negative regulation of mRNA metabolic process (GO:1903312)	93	5	.22	+	22.74	3.45E-06	1.42E-03
+nucleosome organization (GO:0034728)	81	4	.19	+	20.89	4.84E-05	1.20E-02
+regulation of RNA splicing (GO:0043484)	187	9	.44	+	20.36	7.63E-10	1.49E-06
+regulation of mRNA metabolic process (GO:1903311)	300	12	.71	+	16.92	6.50E-12	1.02E-07
+protein-RNA complex assembly (GO:0022618)	164	6	.39	+	15.48	2.92E-06	1.31E-03
+positive regulation of translation (GO:0045727)	139	5	.33	+	15.22	2.25E-05	7.05E-03
+protein-RNA complex organization (GO:0071826)	172	6	.41	+	14.76	3.81E-06	1.53E-03
+mRNA splicing, via spliceosome (GO:0000398)	222	7	.52	+	13.34	1.07E-06	6.99E-04
+RNA splicing, via transesterification reactions with bulged adenosine as nucleophile (GO:0000377)	222	7	.52	+	13.34	1.07E-06	6.71E-04
+RNA splicing, via transesterification reactions (GO:0000375)	222	7	.52	+	13.34	1.07E-06	6.45E-04
+positive regulation of amide metabolic process (GO:0034250)	169	5	.40	+	12.52	5.56E-05	1.34E-02
+ribonucleoprotein complex biogenesis (GO:0022613)	415	12	.98	+	12.23	2.45E-10	6.39E-07
+ribosome biogenesis (GO:0042254)	303	8	.72	+	11.17	6.28E-07	4.69E-04
+RNA splicing (GO:0008380)	348	9	.82	+	10.94	1.38E-07	1.54E-04
+rRNA processing (GO:0006364)	205	5	.48	+	10.32	1.35E-04	2.86E-02
+translation (GO:0006412)	376	9	.89	+	10.13	2.61E-07	2.72E-04
+peptide biosynthetic process (GO:0043043)	400	9	.95	+	9.52	4.33E-07	3.77E-04
+rRNA metabolic process (GO:0016072)	236	5	.56	+	8.96	2.56E-04	4.95E-02
+mRNA processing (GO:0006397)	436	9	1.03	+	8.73	8.74E-07	6.23E-04
+regulation of translation (GO:0006417)	391	8	.92	+	8.66	4.02E-06	1.58E-03
+RNA processing (GO:0006396)	810	16	1.91	+	8.36	3.82E-11	2.00E-07
+post-transcriptional regulation of gene expression (GO:0010608)	484	9	1.14	+	7.87	2.03E-06	1.10E-03
+peptide metabolic process (GO:0006518)	487	9	1.15	+	7.82	2.14E-06	1.12E-03
+ncRNA processing (GO:0034470)	392	7	.93	+	7.55	4.00E-05	1.06E-02
+amide biosynthetic process (GO:0043604)	507	9	1.20	+	7.51	2.95E-06	1.29E-03
+regulation of amide metabolic process (GO:0034248)	453	8	1.07	+	7.47	1.15E-05	3.85E-03
+mRNA metabolic process (GO:0016071)	595	10	1.41	+	7.11	1.26E-06	7.30E-04
+chromatin remodeling (GO:0006338)	439	7	1.04	+	6.75	8.06E-05	1.83E-02
+ncRNA metabolic process (GO:0034660)	496	7	1.17	+	5.97	1.70E-04	3.55E-02
+amide metabolic process (GO:0043603)	754	10	1.78	+	5.61	9.96E-06	3.47E-03
+protein-containing complex assembly (GO:0065003)	1141	14	2.70	+	5.19	2.95E-07	2.89E-04
+RNA metabolic process (GO:0016070)	1463	17	3.46	+	4.92	2.40E-08	3.76E-05
+positive regulation of gene expression (GO:0010628)	1268	14	3.00	+	4.67	1.03E-06	7.05E-04
+gene expression (GO:0010467)	2086	23	4.93	+	4.66	7.25E-11	2.84E-07
+protein-containing complex organization (GO:0043933)	1772	18	4.19	+	4.30	6.31E-08	8.24E-05
+macromolecule biosynthetic process (GO:0009059)	1350	12	3.19	+	3.76	6.03E-05	1.43E-02
+nucleic acid metabolic process (GO:0090304)	2053	18	4.85	+	3.71	5.66E-07	4.43E-04
+cellular nitrogen compound metabolic process (GO:0034641)	3065	26	7.25	+	3.59	7.08E-10	1.58E-06
+cellular nitrogen compound biosynthetic process (GO:0044271)	1439	12	3.40	+	3.53	1.11E-04	2.41E-02
+cellular component biogenesis (GO:0044085)	2526	20	5.97	+	3.35	5.26E-07	4.34E-04
+cellular biosynthetic process (GO:0044249)	1974	15	4.67	+	3.21	3.62E-05	9.79E-03
+nucleobase-containing compound metabolic process (GO:0006139)	2536	19	5.99	+	3.17	2.64E-06	1.25E-03
+regulation of protein metabolic process (GO:0051246)	2512	18	5.94	+	3.03	1.01E-05	3.44E-03
+heterocycle metabolic process (GO:0046483)	2682	19	6.34	+	3.00	6.05E-06	2.31E-03
+cellular component assembly (GO:0022607)	2279	16	5.39	+	2.97	4.82E-05	1.22E-02
+cellular aromatic compound metabolic process (GO:0006725)	2753	19	6.51	+	2.92	8.86E-06	3.16E-03
+organic substance biosynthetic process (GO:1901576)	2349	16	5.55	+	2.88	6.95E-05	1.60E-02
+biosynthetic process (GO:0009058)	2414	16	5.71	+	2.80	9.62E-05	2.13E-02
+organic cyclic compound metabolic process (GO:1901360)	2993	19	7.08	+	2.69	2.94E-05	8.86E-03
+positive regulation of nitrogen compound metabolic process (GO:0051173)	3060	19	7.23	+	2.63	4.01E-05	1.05E-02
+positive regulation of cellular metabolic process (GO:0031325)	2958	18	6.99	+	2.57	9.15E-05	2.05E-02
+cellular metabolic process (GO:0044237)	5498	32	13.00	+	2.46	2.81E-08	4.01E-05
+regulation of nucleobase-containing compound metabolic process (GO:0019219)	3825	21	9.04	+	2.32	1.29E-04	2.76E-02
+regulation of nitrogen compound metabolic process (GO:0051171)	5498	29	13.00	+	2.23	2.54E-06	1.25E-03
+macromolecule metabolic process (GO:0043170)	5858	30	13.85	+	2.17	2.46E-06	1.25E-03
+regulation of cellular metabolic process (GO:0031323)	5280	27	12.48	+	2.16	1.37E-05	4.48E-03
+regulation of primary metabolic process (GO:0080090)	5708	29	13.49	+	2.15	7.99E-06	2.91E-03
+nitrogen compound metabolic process (GO:0006807)	6311	32	14.92	+	2.14	1.35E-06	7.55E-04
+cellular component organization (GO:0016043)	5371	26	12.70	+	2.05	6.84E-05	1.60E-02
+cellular component organization or biogenesis (GO:0071840)	5582	27	13.20	+	2.05	4.26E-05	1.09E-02
+primary metabolic process (GO:0044238)	6922	33	16.36	+	2.02	2.98E-06	1.26E-03
+regulation of macromolecule metabolic process (GO:0060255)	6107	29	14.44	+	2.01	3.00E-05	8.88E-03
+regulation of metabolic process (GO:0019222)	6630	29	15.67	+	1.85	1.95E-04	4.03E-02
+organic substance metabolic process (GO:0071704)	7643	33	18.07	+	1.83	2.88E-05	8.86E-03
+metabolic process (GO:0008152)	8033	34	18.99	+	1.79	3.31E-05	9.27E-03
+cellular process (GO:0009987)	14994	51	35.45	+	1.44	8.97E-08	1.08E-04

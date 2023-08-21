@@ -1,0 +1,124 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20230705)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.7942786 Released 2023-05-10
+Analyzed List:	upload_1 (Mus musculus)
+Reference List:	Mus musculus (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO cellular component complete	Mus musculus - REFLIST (21997)	upload_1 (176)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+eukaryotic translation initiation factor 3 complex, eIF3m (GO:0071541)	8	6	.06	+	93.74	6.54E-10	2.81E-08
+eukaryotic translation elongation factor 1 complex (GO:0005853)	3	2	.02	+	83.32	6.17E-04	1.34E-02
+mitochondrial proton-transporting ATP synthase complex, catalytic sector F(1) (GO:0000275)	5	3	.04	+	74.99	2.67E-05	7.78E-04
+polysomal ribosome (GO:0042788)	33	19	.26	+	71.96	2.79E-27	2.91E-25
+cytosolic small ribosomal subunit (GO:0022627)	42	24	.34	+	71.42	3.62E-34	5.98E-32
+cytosolic large ribosomal subunit (GO:0022625)	66	34	.53	+	64.39	5.05E-47	1.67E-44
+pICln-Sm protein complex (GO:0034715)	6	3	.05	+	62.49	3.99E-05	1.08E-03
+proton-transporting ATP synthase complex, catalytic core F(1) (GO:0045261)	6	3	.05	+	62.49	3.99E-05	1.07E-03
+CRD-mediated mRNA stability complex (GO:0070937)	6	3	.05	+	62.49	3.99E-05	1.05E-03
+Cul7-RING ubiquitin ligase complex (GO:0031467)	4	2	.03	+	62.49	9.20E-04	1.90E-02
+cytosolic ribosome (GO:0022626)	122	56	.98	+	57.37	6.30E-76	6.24E-73
+eukaryotic translation initiation factor 3 complex (GO:0005852)	16	7	.13	+	54.68	3.88E-10	1.74E-08
+mCRD-mediated mRNA stability complex (GO:0106002)	5	2	.04	+	49.99	1.28E-03	2.59E-02
+interchromatin granule (GO:0035061)	5	2	.04	+	49.99	1.28E-03	2.56E-02
+perichromatin fibrils (GO:0005726)	8	3	.06	+	46.87	7.74E-05	1.94E-03
+U1 snRNP (GO:0005685)	18	6	.14	+	41.66	2.74E-08	1.04E-06
+histone pre-mRNA 3'end processing complex (GO:0071204)	6	2	.05	+	41.66	1.70E-03	3.23E-02
+small ribosomal subunit (GO:0015935)	79	24	.63	+	37.97	8.10E-29	1.07E-26
+U4 snRNP (GO:0005687)	10	3	.08	+	37.49	1.33E-04	3.24E-03
+polysome (GO:0005844)	73	21	.58	+	35.95	6.65E-25	6.58E-23
+prefoldin complex (GO:0016272)	7	2	.06	+	35.71	2.17E-03	4.06E-02
+U7 snRNP (GO:0005683)	7	2	.06	+	35.71	2.17E-03	4.02E-02
+mitochondrial permeability transition pore complex (GO:0005757)	7	2	.06	+	35.71	2.17E-03	3.98E-02
+ribosomal subunit (GO:0044391)	197	56	1.58	+	35.53	3.45E-66	2.27E-63
+large ribosomal subunit (GO:0015934)	123	34	.98	+	34.55	1.99E-39	4.92E-37
+U12-type spliceosomal complex (GO:0005689)	27	7	.22	+	32.40	7.91E-09	3.13E-07
+methylosome (GO:0034709)	12	3	.10	+	31.25	2.09E-04	5.03E-03
+mitochondrial proton-transporting ATP synthase complex (GO:0005753)	20	5	.16	+	31.25	1.39E-06	4.74E-05
+U5 snRNP (GO:0005682)	16	4	.13	+	31.25	1.68E-05	5.12E-04
+paraspeckles (GO:0042382)	8	2	.06	+	31.25	2.70E-03	4.78E-02
+small-subunit processome (GO:0032040)	73	18	.58	+	30.82	1.84E-20	1.26E-18
+proton-transporting ATP synthase complex (GO:0045259)	21	5	.17	+	29.76	1.71E-06	5.55E-05
+ribosome (GO:0005840)	245	58	1.96	+	29.59	1.14E-64	5.62E-62
+U2 snRNP (GO:0005686)	22	5	.18	+	28.41	2.09E-06	6.55E-05
+spliceosomal snRNP complex (GO:0097525)	62	13	.50	+	26.21	2.62E-14	1.40E-12
+small nuclear ribonucleoprotein complex (GO:0030532)	71	14	.57	+	24.64	5.44E-15	2.99E-13
+messenger ribonucleoprotein complex (GO:1990124)	16	3	.13	+	23.43	4.34E-04	9.76E-03
+proton-transporting two-sector ATPase complex, catalytic domain (GO:0033178)	17	3	.14	+	22.06	5.07E-04	1.13E-02
+SMN-Sm protein complex (GO:0034719)	17	3	.14	+	22.06	5.07E-04	1.12E-02
+preribosome (GO:0030684)	110	19	.88	+	21.59	5.59E-19	3.69E-17
+U4/U6 x U5 tri-snRNP complex (GO:0046540)	35	6	.28	+	21.43	8.20E-07	2.95E-05
+spliceosomal tri-snRNP complex (GO:0097526)	35	6	.28	+	21.43	8.20E-07	2.90E-05
+Sm-like protein family complex (GO:0120114)	83	14	.66	+	21.08	3.69E-14	1.87E-12
+exon-exon junction complex (GO:0035145)	25	4	.20	+	20.00	7.80E-05	1.93E-03
+catalytic step 2 spliceosome (GO:0071013)	101	16	.81	+	19.80	1.25E-15	7.06E-14
+U2-type precatalytic spliceosome (GO:0071005)	54	8	.43	+	18.52	3.15E-08	1.18E-06
+precatalytic spliceosome (GO:0071011)	56	8	.45	+	17.85	4.07E-08	1.49E-06
+protein folding chaperone complex (GO:0101031)	36	5	.29	+	17.36	1.77E-05	5.31E-04
+A band (GO:0031672)	37	5	.30	+	16.89	2.00E-05	5.90E-04
+ribonucleoprotein complex (GO:1990904)	747	96	5.98	+	16.06	3.86E-89	7.64E-86
+spliceosomal complex (GO:0005681)	208	25	1.66	+	15.02	3.45E-21	2.53E-19
+U2-type spliceosomal complex (GO:0005684)	103	12	.82	+	14.56	1.30E-10	6.13E-09
+U2-type catalytic step 2 spliceosome (GO:0071007)	38	4	.30	+	13.16	3.39E-04	7.99E-03
+Cajal body (GO:0015030)	39	4	.31	+	12.82	3.72E-04	8.46E-03
+proton-transporting two-sector ATPase complex (GO:0016469)	50	5	.40	+	12.50	7.51E-05	1.91E-03
+MLL1 complex (GO:0071339)	31	3	.25	+	12.10	2.46E-03	4.46E-02
+MLL1/2 complex (GO:0044665)	32	3	.26	+	11.72	2.67E-03	4.80E-02
+presynaptic cytosol (GO:0099523)	32	3	.26	+	11.72	2.67E-03	4.76E-02
+mitochondrial nucleoid (GO:0042645)	48	4	.38	+	10.42	7.72E-04	1.66E-02
+nucleoid (GO:0009295)	48	4	.38	+	10.42	7.72E-04	1.64E-02
+cytosolic region (GO:0099522)	49	4	.39	+	10.20	8.29E-04	1.75E-02
+postsynapse (GO:0098794)	830	58	6.64	+	8.73	3.02E-37	6.65E-35
+methyltransferase complex (GO:0034708)	104	7	.83	+	8.41	2.99E-05	8.45E-04
+nuclear speck (GO:0016607)	354	23	2.83	+	8.12	3.67E-14	1.91E-12
+presynapse (GO:0098793)	721	42	5.77	+	7.28	1.05E-23	9.94E-22
+nuclear matrix (GO:0016363)	107	6	.86	+	7.01	2.88E-04	6.86E-03
+ATPase complex (GO:1904949)	148	8	1.18	+	6.76	3.59E-05	9.87E-04
+myelin sheath (GO:0043209)	208	11	1.66	+	6.61	1.49E-06	5.01E-05
+postsynaptic density (GO:0014069)	383	19	3.06	+	6.20	5.48E-10	2.41E-08
+synapse (GO:0045202)	1604	77	12.83	+	6.00	9.82E-40	2.78E-37
+nucleolus (GO:0005730)	901	43	7.21	+	5.96	4.40E-21	3.11E-19
+asymmetric synapse (GO:0032279)	406	19	3.25	+	5.85	1.38E-09	5.81E-08
+ribonucleoprotein granule (GO:0035770)	262	12	2.10	+	5.72	2.08E-06	6.64E-05
+cytoplasmic ribonucleoprotein granule (GO:0036464)	244	11	1.95	+	5.63	6.46E-06	2.00E-04
+nuclear periphery (GO:0034399)	134	6	1.07	+	5.60	8.96E-04	1.87E-02
+postsynaptic specialization (GO:0099572)	433	19	3.46	+	5.48	3.79E-09	1.56E-07
+neuron to neuron synapse (GO:0098984)	447	19	3.58	+	5.31	6.22E-09	2.51E-07
+nuclear body (GO:0016604)	757	31	6.06	+	5.12	1.50E-13	7.22E-12
+cell junction (GO:0030054)	2245	81	17.96	+	4.51	1.92E-33	2.93E-31
+nuclear protein-containing complex (GO:0140513)	1249	44	9.99	+	4.40	9.07E-17	5.28E-15
+cytosol (GO:0005829)	3855	100	30.84	+	3.24	2.89E-31	4.08E-29
+intracellular non-membrane-bounded organelle (GO:0043232)	4615	113	36.93	+	3.06	9.68E-35	1.92E-32
+non-membrane-bounded organelle (GO:0043228)	4616	113	36.93	+	3.06	9.88E-35	1.78E-32
+protein-containing complex (GO:0032991)	5859	140	46.88	+	2.99	6.28E-48	2.48E-45
+nuclear lumen (GO:0031981)	4127	90	33.02	+	2.73	7.80E-22	5.94E-20
+intracellular organelle lumen (GO:0070013)	4574	97	36.60	+	2.65	3.36E-23	3.02E-21
+organelle lumen (GO:0043233)	4575	97	36.60	+	2.65	3.41E-23	2.94E-21
+membrane-enclosed lumen (GO:0031974)	4575	97	36.60	+	2.65	3.41E-23	2.81E-21
+chromatin (GO:0000785)	697	14	5.58	+	2.51	1.67E-03	3.20E-02
+catalytic complex (GO:1902494)	1774	35	14.19	+	2.47	9.63E-07	3.34E-05
+dendrite (GO:0030425)	761	15	6.09	+	2.46	1.37E-03	2.71E-02
+dendritic tree (GO:0097447)	764	15	6.11	+	2.45	1.42E-03	2.76E-02
+nucleoplasm (GO:0005654)	3661	71	29.29	+	2.42	1.10E-13	5.45E-12
+protein-DNA complex (GO:0032993)	795	15	6.36	+	2.36	2.08E-03	3.92E-02
+endoplasmic reticulum (GO:0005783)	1855	32	14.84	+	2.16	3.51E-05	9.77E-04
+nucleus (GO:0005634)	7109	120	56.88	+	2.11	6.29E-22	4.98E-20
+supramolecular complex (GO:0099080)	1305	22	10.44	+	2.11	1.08E-03	2.21E-02
+intracellular organelle (GO:0043229)	12672	166	101.39	+	1.64	6.40E-28	7.04E-26
+organelle (GO:0043226)	12990	168	103.93	+	1.62	1.18E-28	1.46E-26
+intracellular membrane-bounded organelle (GO:0043231)	11533	147	92.28	+	1.59	1.08E-17	6.88E-16
+cytoplasm (GO:0005737)	11586	147	92.70	+	1.59	1.26E-17	7.79E-16
+membrane-bounded organelle (GO:0043227)	12005	149	96.05	+	1.55	4.01E-17	2.40E-15
+intracellular anatomical structure (GO:0005622)	14294	173	114.37	+	1.51	3.80E-28	4.43E-26
+cellular anatomical entity (GO:0110165)	18920	175	151.38	+	1.16	1.85E-10	8.53E-09
+cellular_component (GO:0005575)	20654	175	165.25	+	1.06	3.63E-04	8.36E-03
+membrane (GO:0016020)	9423	39	75.39	-	.52	1.44E-08	5.60E-07
+plasma membrane (GO:0005886)	5625	22	45.01	-	.49	2.70E-05	7.74E-04
+cell periphery (GO:0071944)	6131	22	49.05	-	.45	1.65E-06	5.45E-05
+extracellular region (GO:0005576)	2603	8	20.83	-	.38	1.39E-03	2.72E-02
+cytoplasmic vesicle (GO:0031410)	2120	3	16.96	-	.18	4.75E-05	1.24E-03
+intracellular vesicle (GO:0097708)	2125	3	17.00	-	.18	4.79E-05	1.23E-03
+Unclassified (UNCLASSIFIED)	1343	1	10.75	-	.09	3.63E-04	8.46E-03
