@@ -9,10 +9,11 @@ Genetics analysis of TAF1 and their interactors in relation to multiple sclerosi
 2. [DONE] Gene-set analysis of MAGMA for in silico validation of GSEA results.
    Done for both ribominus and polyA, checking MS, esophageal cancer and ALS.
 
-3. GO categories of interactors in column O, sheet DATA of file 'interactores_and_other_data.xlsx' and gene-set analysis of emerged categories.
+3. [DONE provisional] GO categories of interactors in column O, sheet DATA of file 'interactores_and_other_data.xlsx' and gene-set analysis of emerged categories.
    GO categories for the groups 'higher in WT', 'higher in mut' and 'not differential'. Discard no interactors.
-   GO enrichment analysisi (powered by PANTHER) at http://geneontology.org/ -> [TODO] como matchear la go cat en list de genes
-   Gene set in multiple sclerosis of the unique categories.
+   GO enrichment analysis (powered by PANTHER) at http://geneontology.org/ 
+   To get the genes in each GO term, I used the R package msigdb. There were some categories that were not included in this software, therefore this results are PROVISIONAL.
+   Gene set in MAGMA in multiple sclerosis of the unique categories.
    
 4. [DONE] Gene-set analysis of MAGMA for those interactors, 4 sets: only WT, only mut, not differential, all together.
 

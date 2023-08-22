@@ -1,0 +1,38 @@
+Welcome to MAGMA v1.09 (custom)
+Using flags:
+	--gene-results genebased_analysis/raws/sclerosis_genebased.genes.raw
+	--set-annot sets_property/jl/go_interactors/higher_mut_final.txt col=2,1
+	--out sets_property/jl/go_interactors/results_MS_higher_mut
+
+Start time is 12:57:13, Tuesday 22 Aug 2023
+
+Reading file genebased_analysis/raws/sclerosis_genebased.genes.raw... 
+	59313 genes read from file
+Loading gene-set annotation...
+Reading file sets_property/jl/go_interactors/higher_mut_final.txt... 
+	detected 2 variables in file
+	using variable: variable 2 (gene ID)
+	using variable: variable 1 (set ID)
+	64 gene-set definitions read from file
+	found 64 gene sets containing genes defined in genotype data (containing a total of 8945 unique genes)
+Preparing variables for analysis...
+	truncating Z-scores 3 points below zero or 6 standard deviations above the mean
+	truncating covariate values more than 5 standard deviations from the mean
+	total variables available for analysis: 64 gene sets
+
+Parsing model specifications...
+Inverting gene-gene correlation matrix...
+Performing regression analysis...
+	testing direction: one-sided, positive (sets), two-sided (covar)
+	conditioning on internal variables:
+		gene size, log(gene size)
+		gene density, log(gene density)
+		inverse mac, log(inverse mac)
+	analysing individual variables
+
+	analysing single-variable models (number of models: 64)
+	writing results to file sets_property/jl/go_interactors/results_MS_higher_mut.gsa.out
+	writing gene information to file sets_property/jl/go_interactors/results_MS_higher_mut.gsa.genes.out
+	writing gene analysis results per significant result (after multiple testing correction, at alpha = 0.05) to file sets_property/jl/go_interactors/results_MS_higher_mut.gsa.sets.genes.out
+
+End time is 13:08:25, Tuesday 22 Aug 2023 (elapsed: 00:11:12)
