@@ -28,4 +28,4 @@ Genetics analysis of TAF1 and their interactors in relation to multiple sclerosi
    
 4. [DONE] Gene-set analysis of MAGMA for those interactors, 4 sets: only WT, only mut, not differential, all together.
 
-5. ORA with oligodendrocytes markers over the genes on the CHIP-seq pause peak.
+5. [DONE] ORA with oligodendrocytes markers over the genes on the CHIP-seq pause peak. Actually, it is an hypergeometric test. All significant.
