@@ -1,0 +1,36 @@
+Welcome to MAGMA v1.09 (custom)
+Using flags:
+	--gene-results genebased_analysis/raws/sclerosis_19k_genebased.genes.raw
+	--set-annot sets_property/input/interactors_oligodendro_input.txt col=2,1
+	--out sets_property/jl/proteomic_interactors_lista2_MS19k
+
+Start time is 15:19:50, Wednesday 04 Oct 2023
+
+Reading file genebased_analysis/raws/sclerosis_19k_genebased.genes.raw... 
+	17630 genes read from file
+Loading gene-set annotation...
+Reading file sets_property/input/interactors_oligodendro_input.txt... 
+	detected 2 variables in file
+	using variable: variable 2 (gene ID)
+	using variable: variable 1 (set ID)
+	2 gene-set definitions read from file
+	found 2 gene sets containing genes defined in genotype data (containing a total of 76 unique genes)
+Preparing variables for analysis...
+	truncating Z-scores 3 points below zero or 6 standard deviations above the mean
+	truncating covariate values more than 5 standard deviations from the mean
+	total variables available for analysis: 2 gene sets
+
+Parsing model specifications...
+Inverting gene-gene correlation matrix...
+Performing regression analysis...
+	testing direction: one-sided, positive (sets), two-sided (covar)
+	conditioning on internal variables:
+		gene size, log(gene size)
+		gene density, log(gene density)
+		inverse mac, log(inverse mac)
+	analysing individual variables
+
+	analysing single-variable models (number of models: 2)
+	writing results to file sets_property/jl/proteomic_interactors_lista2_MS19k.gsa.out
+
+End time is 15:20:01, Wednesday 04 Oct 2023 (elapsed: 00:00:11)
