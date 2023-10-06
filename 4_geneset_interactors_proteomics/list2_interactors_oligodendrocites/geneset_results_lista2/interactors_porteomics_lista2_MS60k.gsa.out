@@ -4,3 +4,4 @@
 VARIABLE      TYPE  NGENES         BETA     BETA_STD           SE            P
 D38>WT         SET       8       0.1367    0.0015875      0.28279       0.3144
 WT>D38         SET      72      0.12544    0.0043677       0.1017      0.10872
+all            SET      80      0.12626     0.004634     0.095524     0.093123
