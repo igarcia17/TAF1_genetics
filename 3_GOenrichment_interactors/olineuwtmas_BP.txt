@@ -1,0 +1,32 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20231017)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.7942786 Released 2023-01-05
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO biological process complete	Homo sapiens - REFLIST (20592)	upload_1 (74)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+proton motive force-driven ATP synthesis (GO:0015986)	73	5	.26	+	19.06	8.84E-06	2.29E-02
+ATP biosynthetic process (GO:0006754)	86	5	.31	+	16.18	1.88E-05	2.92E-02
+nucleoside triphosphate biosynthetic process (GO:0009142)	114	6	.41	+	14.65	4.54E-06	1.76E-02
+purine ribonucleoside triphosphate biosynthetic process (GO:0009206)	97	5	.35	+	14.34	3.26E-05	3.38E-02
+purine nucleoside triphosphate biosynthetic process (GO:0009145)	98	5	.35	+	14.20	3.42E-05	3.32E-02
+mitochondrial respiratory chain complex assembly (GO:0033108)	102	5	.37	+	13.64	4.11E-05	3.36E-02
+ribonucleoside triphosphate biosynthetic process (GO:0009201)	103	5	.37	+	13.51	4.29E-05	3.33E-02
+nucleoside triphosphate metabolic process (GO:0009141)	166	6	.60	+	10.06	3.53E-05	3.23E-02
+phosphate-containing compound metabolic process (GO:0006796)	1813	19	6.52	+	2.92	1.70E-05	2.94E-02
+phosphorus metabolic process (GO:0006793)	1839	19	6.61	+	2.88	2.08E-05	2.93E-02
+nucleobase-containing compound metabolic process (GO:0006139)	2784	24	10.00	+	2.40	2.57E-05	3.33E-02
+cellular nitrogen compound metabolic process (GO:0034641)	3334	28	11.98	+	2.34	8.25E-06	2.56E-02
+organic cyclic compound metabolic process (GO:1901360)	3244	26	11.66	+	2.23	3.97E-05	3.42E-02
+cellular metabolic process (GO:0044237)	5808	45	20.87	+	2.16	6.06E-09	9.41E-05
+primary metabolic process (GO:0044238)	7140	46	25.66	+	1.79	1.86E-06	9.61E-03
+organic substance metabolic process (GO:0071704)	7624	46	27.40	+	1.68	1.64E-05	3.18E-02
+metabolic process (GO:0008152)	8056	48	28.95	+	1.66	1.14E-05	2.53E-02
+cellular process (GO:0009987)	14613	71	52.51	+	1.35	9.21E-08	7.15E-04
+biological_process (GO:0008150)	17714	74	63.66	+	1.16	2.70E-05	2.99E-02
+Unclassified (UNCLASSIFIED)	2878	0	10.34	-	 < 0.01	2.70E-05	3.22E-02

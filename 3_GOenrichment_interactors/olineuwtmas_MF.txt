@@ -1,0 +1,16 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20231017)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.7942786 Released 2023-01-05
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO molecular function complete	Homo sapiens - REFLIST (20592)	upload_1 (74)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+NADH dehydrogenase (ubiquinone) activity (GO:0008137)	41	4	.15	+	27.15	2.02E-05	1.02E-01
+NADH dehydrogenase (quinone) activity (GO:0050136)	42	4	.15	+	26.50	2.21E-05	5.58E-02
+NADH dehydrogenase activity (GO:0003954)	44	4	.16	+	25.30	2.62E-05	4.41E-02
+NAD(P)H dehydrogenase (quinone) activity (GO:0003955)	45	4	.16	+	24.74	2.84E-05	3.59E-02

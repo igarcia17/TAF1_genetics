@@ -1,8 +1,11 @@
 library('dplyr')
 library('msigdbr')
 
-inputF <- 'GSEAcats_polyA.txt'
-resF <- 'validate_sets_polyA.txt'
+workingD <- rstudioapi::getActiveDocumentContext()$path
+setwd(dirname(workingD))
+
+inputF <- 'GSEAcats_polyA_independent_filteredClda.txt'
+resF <- 'validate_sets_polyA_independent_filteredClda.txt'
 
 #Enriched categories to validate
 filter <- as.data.frame(read.csv(inputF, sep = '\t', header = F)[,1])
@@ -32,3 +35,4 @@ dim(filter) == dim(uni)
 
 #Save
 write.table(target_sets, file = resF, sep="\t",  col.names=F, quote = F, row.names = F)
+

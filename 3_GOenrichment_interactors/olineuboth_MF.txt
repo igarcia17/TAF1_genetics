@@ -1,0 +1,23 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20231017)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.7942786 Released 2023-01-05
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO molecular function complete	Homo sapiens - REFLIST (20592)	upload_1 (82)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+RNA polymerase II general transcription initiation factor activity (GO:0016251)	40	4	.16	+	25.11	2.77E-05	6.99E-02
+NADH dehydrogenase (ubiquinone) activity (GO:0008137)	41	4	.16	+	24.50	3.03E-05	5.10E-02
+NADH dehydrogenase (quinone) activity (GO:0050136)	42	4	.17	+	23.92	3.30E-05	4.18E-02
+NADH dehydrogenase activity (GO:0003954)	44	4	.18	+	22.83	3.92E-05	3.30E-02
+NAD(P)H dehydrogenase (quinone) activity (GO:0003955)	45	4	.18	+	22.32	4.25E-05	3.07E-02
+general transcription initiation factor activity (GO:0140223)	55	4	.22	+	18.26	8.86E-05	4.48E-02
+oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor (GO:0016655)	57	4	.23	+	17.62	1.01E-04	4.64E-02
+protein binding (GO:0005515)	14383	74	57.27	+	1.29	1.66E-05	8.40E-02
+binding (GO:0005488)	16543	79	65.88	+	1.20	3.81E-05	3.85E-02
+molecular_function (GO:0003674)	18189	82	72.43	+	1.13	7.93E-05	5.01E-02
+Unclassified (UNCLASSIFIED)	2403	0	9.57	-	 < 0.01	7.93E-05	4.46E-02

@@ -1,0 +1,73 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20231017)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.7942786 Released 2023-01-05
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO cellular component complete	Homo sapiens - REFLIST (20592)	upload_1 (82)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+core TFIIH complex portion of holo TFIIH complex (GO:0000438)	3	2	.01	+	 > 100	1.54E-04	8.49E-03
+transcription factor TFIIH core complex (GO:0000439)	11	4	.04	+	91.32	3.03E-07	4.62E-05
+uniplex complex (GO:1990246)	6	2	.02	+	83.71	4.28E-04	2.07E-02
+transcription factor TFIIH holo complex (GO:0005675)	12	4	.05	+	83.71	4.03E-07	5.33E-05
+carboxy-terminal domain protein kinase complex (GO:0032806)	18	4	.07	+	55.80	1.59E-06	1.50E-04
+nucleolar exosome (RNase complex) (GO:0101019)	10	2	.04	+	50.22	1.00E-03	3.74E-02
+U4 snRNP (GO:0005687)	11	2	.04	+	45.66	1.18E-03	4.17E-02
+nuclear exosome (RNase complex) (GO:0000176)	12	2	.05	+	41.85	1.37E-03	4.45E-02
+transcription factor TFIID complex (GO:0005669)	35	5	.14	+	35.87	5.12E-07	6.34E-05
+U2-type catalytic step 2 spliceosome (GO:0071007)	30	3	.12	+	25.11	3.01E-04	1.49E-02
+respiratory chain complex I (GO:0045271)	49	4	.20	+	20.50	5.81E-05	3.71E-03
+NADH dehydrogenase complex (GO:0030964)	49	4	.20	+	20.50	5.81E-05	3.59E-03
+mitochondrial respiratory chain complex I (GO:0005747)	49	4	.20	+	20.50	5.81E-05	3.49E-03
+RNA polymerase II, holoenzyme (GO:0016591)	78	6	.31	+	19.32	1.03E-06	1.13E-04
+nuclear DNA-directed RNA polymerase complex (GO:0055029)	102	6	.41	+	14.77	4.48E-06	3.29E-04
+DNA-directed RNA polymerase complex (GO:0000428)	105	6	.42	+	14.35	5.25E-06	3.72E-04
+RNA polymerase complex (GO:0030880)	108	6	.43	+	13.95	6.13E-06	4.19E-04
+serine/threonine protein kinase complex (GO:1902554)	131	7	.52	+	13.42	1.27E-06	1.32E-04
+mitochondrial intermembrane space (GO:0005758)	86	4	.34	+	11.68	4.53E-04	2.14E-02
+protein kinase complex (GO:1902911)	151	7	.60	+	11.64	3.13E-06	2.70E-04
+respiratory chain complex (GO:0098803)	88	4	.35	+	11.41	4.93E-04	2.12E-02
+inner mitochondrial membrane protein complex (GO:0098800)	155	7	.62	+	11.34	3.70E-06	2.82E-04
+mitochondrial respirasome (GO:0005746)	91	4	.36	+	11.04	5.56E-04	2.30E-02
+organelle envelope lumen (GO:0031970)	96	4	.38	+	10.46	6.75E-04	2.73E-02
+respirasome (GO:0070469)	99	4	.39	+	10.15	7.54E-04	2.87E-02
+brush border (GO:0005903)	109	4	.43	+	9.22	1.07E-03	3.91E-02
+mitochondrial protein-containing complex (GO:0098798)	297	10	1.18	+	8.46	3.75E-07	5.30E-05
+transferase complex, transferring phosphorus-containing groups (GO:0061695)	299	9	1.19	+	7.56	3.63E-06	2.88E-04
+mitochondrial inner membrane (GO:0005743)	497	14	1.98	+	7.07	1.26E-08	2.76E-06
+mitochondrial outer membrane (GO:0005741)	216	6	.86	+	6.98	2.54E-04	1.33E-02
+mitochondrial membrane (GO:0031966)	759	20	3.02	+	6.62	1.80E-11	1.78E-08
+organelle inner membrane (GO:0019866)	554	14	2.21	+	6.35	4.70E-08	7.76E-06
+mitochondrial envelope (GO:0005740)	810	20	3.23	+	6.20	5.58E-11	3.68E-08
+RNA polymerase II transcription regulator complex (GO:0090575)	245	6	.98	+	6.15	4.89E-04	2.20E-02
+organelle outer membrane (GO:0031968)	245	6	.98	+	6.15	4.89E-04	2.15E-02
+outer membrane (GO:0019867)	247	6	.98	+	6.10	5.10E-04	2.15E-02
+envelope (GO:0031975)	1281	24	5.10	+	4.70	1.22E-10	6.06E-08
+organelle envelope (GO:0031967)	1281	24	5.10	+	4.70	1.22E-10	4.84E-08
+transmembrane transporter complex (GO:1902495)	397	7	1.58	+	4.43	1.12E-03	4.02E-02
+intracellular protein-containing complex (GO:0140535)	894	13	3.56	+	3.65	5.51E-05	3.64E-03
+transferase complex (GO:1990234)	851	12	3.39	+	3.54	1.46E-04	8.26E-03
+catalytic complex (GO:1902494)	1744	22	6.94	+	3.17	9.19E-07	1.07E-04
+mitochondrion (GO:0005739)	1697	21	6.76	+	3.11	2.36E-06	2.12E-04
+nuclear protein-containing complex (GO:0140513)	1225	15	4.88	+	3.07	9.60E-05	5.59E-03
+membrane protein complex (GO:0098796)	1351	15	5.38	+	2.79	2.77E-04	1.41E-02
+organelle membrane (GO:0031090)	3720	37	14.81	+	2.50	1.72E-08	3.41E-06
+protein-containing complex (GO:0032991)	6363	46	25.34	+	1.82	3.14E-06	2.59E-04
+organelle lumen (GO:0043233)	5617	36	22.37	+	1.61	1.18E-03	4.10E-02
+intracellular organelle lumen (GO:0070013)	5617	36	22.37	+	1.61	1.18E-03	4.03E-02
+membrane-enclosed lumen (GO:0031974)	5617	36	22.37	+	1.61	1.18E-03	3.96E-02
+intracellular membrane-bounded organelle (GO:0043231)	12120	76	48.26	+	1.57	8.15E-12	1.61E-08
+nucleus (GO:0005634)	7651	45	30.47	+	1.48	1.25E-03	4.11E-02
+membrane-bounded organelle (GO:0043227)	13193	77	52.54	+	1.47	3.79E-10	1.25E-07
+intracellular organelle (GO:0043229)	13233	77	52.70	+	1.46	4.10E-10	1.16E-07
+membrane (GO:0016020)	9810	56	39.06	+	1.43	2.16E-04	1.16E-02
+cytoplasm (GO:0005737)	12118	69	48.26	+	1.43	1.34E-06	1.32E-04
+organelle (GO:0043226)	14034	77	55.89	+	1.38	2.96E-08	5.34E-06
+intracellular anatomical structure (GO:0005622)	14879	80	59.25	+	1.35	2.58E-09	6.38E-07
+cellular anatomical entity (GO:0110165)	18588	82	74.02	+	1.11	4.85E-04	2.23E-02
+cellular_component (GO:0005575)	18740	82	74.63	+	1.10	7.32E-04	2.90E-02
+Unclassified (UNCLASSIFIED)	1852	0	7.37	-	 < 0.01	7.32E-04	2.84E-02
