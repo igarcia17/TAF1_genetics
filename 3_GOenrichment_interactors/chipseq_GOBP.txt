@@ -1,8 +1,3 @@
-
-
-
-
-
 Analysis Type:	PANTHER Overrepresentation Test (Released 20231017)
 Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.7942786 Released 2023-01-05
 Analyzed List:	upload_1 (Mus musculus)
